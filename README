@@ -1,0 +1,15 @@
+Let's translate these subs into as many languages as is possible.  Just copy the en.srt, translate, let me know you've done it, and I'll give you commit access to the repository.
+
+If you want to make changes to the English script, fork away ;)
+
+I recommend VLC for viewing these subtitles.
+
+http://videolan.org/
+
+Once you've cloned the repository you'll need to download the video file that goes along with these subtitles.  
+
+http://papyromancer.s3.amazonaws.com/IACC-Promo.m4v
+
+Just add it to the folder... but don't ever add it to the repository... it's too big for my free GitHub account.
+
+--papyromancer@papyromancer.net
