@@ -27,7 +27,8 @@ bitchun buildings, in the daylight...
 
 7
 00:00:31,966 --> 00:00:33,966
-A <i>hat</i> is a helmet to protect you from the cold...
+A <i>hat</i> is a helmet 
+to protect you from the sunlight...
 
 8
 00:00:34,466 --> 00:00:36,889
@@ -115,12 +116,12 @@ use The Internet Archive
 and Creative Commons licenses.
 
 27
-00:01:35,534 --> 00:01:40,645
+00:01:35,534 --> 00:01:42,858
 http://archive.org/ 
 http://creativecommons.org/
 for more information
 
 28
-00:01:41,145 --> 00:01:48,680
-CCopyleft Papyromancer 
-January, 2009
+00:01:43,468 --> 00:01:48,211
+Creative Commons Attribution Licensed
+by Papyromancer January, 2009
