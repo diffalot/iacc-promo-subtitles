@@ -65,7 +65,11 @@ svenska
 ï (ðc) 
 isiZulu
 
-Don't worry if you don't know how to use Git, you can download the English subtitles here: <http://papyromancer.s3.amazonaws.com/IACC-Promo.EN.srt> and when you've completed a translation, just send me a text file of the translation as an attachment to an email addressed to papyromancer@papyromancer.net. I will use FFmpegX <http://www.ffmpegx.com/> and mencoder <http://www.mplayerhq.hu/> to burn the titles onto the video.
+Don't worry if you don't know how to use Git, you can download the English subtitles here: <http://papyromancer.s3.amazonaws.com/IACC-Promo.EN.srt> and when you've completed a translation, just send me a text file of the translation as an attachment to an email addressed to papyromancer@papyromancer.net. 
+
+If, on the other hand, you do know how to use Git, I'd recommend performing your translations in a simple text editor... unless you need to re-time the subtitles, in that case use Jubler <http://www.jubler.org/>, it rocks.
+
+I will use FFmpegX <http://www.ffmpegx.com/> and mencoder <http://www.mplayerhq.hu/> to burn the titles onto the video.
 
 Phone me at (601) 255-4393 or email papyromancer@papyromancer.net if you need any assistance assisting me ;)
 
