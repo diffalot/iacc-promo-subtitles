@@ -1,1 +1,1 @@
-/Applications/ffmpegX.app/Contents/Resources/mencoder  IACC-Promo.mp4 -sub IACC-Promo.EN.srt -font 'Fonts/ttf-bitstream-vera-1.10/Vera.ttf' -subfont-text-scale 33 -subpos 10 -oac mp3lame -ovc x264 -o test.mp4
+mencoder  IACC-Promo.mp4 -sub IACC-Promo.EN.srt -font 'Fonts/ttf-bitstream-vera-1.10/Vera.ttf' -subpos 10 -oac mp3lame -ovc x264 -o test.mp4
