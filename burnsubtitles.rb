@@ -1,1 +1,1 @@
-mencoder  IACC-Promo.mp4 -sub IACC-Promo.EN.srt -font 'Fonts/ttf-bitstream-vera-1.10/Vera.ttf' -subpos 10 -oac mp3lame -ovc x264 -o test.mp4
+mencoder IACC-Promo.mp4 -sub IACC-Promo.EN.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 7 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac mp3lame -ovc x264 -x264encopts bitrate=8192 -o test.mp4

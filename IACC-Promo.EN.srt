@@ -84,7 +84,7 @@ What do you mean, many voices were lost, great grandfather?
 20
 00:01:10,565 --> 00:01:13,184
 If someone didn't license their work 
-using Creative Commons licenses,
+using Creative Commons licenses
 
 21
 00:01:13,228 --> 00:01:15,684
@@ -92,7 +92,7 @@ and upload it to The Internet Archive,
 
 22
 00:01:15,769 --> 00:01:18,657
-it wasn't free for individuals to share, 
+it wasn't free for individuals to share; 
 it belonged to a corporation.
 
 23
@@ -123,15 +123,15 @@ for more information
 
 28
 00:01:39,088 --> 00:01:46,068
-Footage Provided By:<br/><br/>
+Footage Provided By:<br><br>
 Rupert Howe
-http://twittervlog.tv<br/><br/>
+http://twittervlog.tv<br><br>
 Ryan is Hungry
-http://ryanishungry.com/<br/><br/>
+http://ryanishungry.com/<br><br>
 Carl Malamud
-Center for American Progress and Lawrence Lessig<br/><br/>
-Things to Come
-http://www.archive.org/details/ClaCinOnl_ThingsToCome
+Center for American Progress and Lawrence Lessig<br><br>
+Things to Come<br>
+http://www.archive.org/
 
 29
 00:01:46,310 --> 00:01:48,211

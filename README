@@ -16,52 +16,53 @@ To view the current English render with subtitles burned in visit http://papyrom
 
 Here are all the languages which still need subtitles:
 
-AF Afrikaans 
-BG 1J;30@A:8 
-CA CatalÃ  
-DA Dansk 
-DE Deutsch 
-EL ÎÎ»Î»Î·Î½Î¹Îº¬
-EN_CA English (CA) 
-EN_GB English (GB) 
-EN_HK English (Hong Kong) 
-EN_SG English (Singapore) 
-EO Esperanto 
-ES Castellano 
-ES_AR Castellano (AR) 
-ES_CL EspaÃ±ol (CL) 
-ES_CO Castellano (CO) 
-ES_EC EspaÃ±ol (Ecuador) 
-ES_GT EspaÃ±ol (Guatemala) 
-ES_MX Castellano (MX) 
-ES_PE Castellano (PE) 
-EU Euskara 
-FI Suomeksi 
-FR franÃ§ais 
-FR_CA franÃ§ais (CA) 
-GL Galego 
-HE âÑèÙê 
-HR hrvatski 
-HU Magyar 
-IT Italiano 
-JA å,
-KO \m´ 
-MK Macedonian 
-MS Melayu 
-NL Nederlands 
-NO Norsk 
-NSO Sesotho sa Leboa 
-PL polski 
-PT PortuguÃªs 
-RO romÃ¢n 
-SL slovenski jezik 
-SR A@?A:8 
-SR_LATN srpski (latinica) 
-ST Sotho 
-SV svenska 
-ZH - -/	
-ZH_TW ï (ðc) 
-ZU isiZulu
+af Afrikaans
+bg български
+ca Català
+da Dansk
+de Deutsch
+el Ελληνικά
+en English (translated by Andrew Davis)
+en_CA English (CA)
+en_GB English (GB)
+en_HK English (Hong Kong)
+en_SG English (Singapore)
+en_US English (US) (translated by Andrew Davis)
+eo Esperanto
+es Castellano
+es_AR Castellano (AR)
+es_CL Español (CL)
+es_CO Castellano (CO)
+es_EC Español (Ecuador)
+es_GT Español (Guatemala)
+es_MX Castellano (MX)
+es_PE Castellano (PE)
+eu Euskara
+fi Suomeksi
+fr français
+fr_CA français (CA)
+gl Galego
+he עברית
+hr hrvatski
+hu Magyar
+it Italiano
+ja 日本語
+ko 한국어
+mk Macedonian
+ms Melayu
+nl Nederlands
+nso Sesotho sa Leboa
+pl polski
+pt Português
+ro română
+sl slovenski jezik
+sr српски 
+sr_LATN srpski (latinica)
+st Sotho
+sv svenska
+zh 中文
+zh_TW 華語 (台灣)
+zu isiZulu
 
 Don't worry if you don't know how to use Git, you can download the English subtitles here: <http://papyromancer.s3.amazonaws.com/IACC-Promo.EN.srt> and when you've completed a translation, just send me a text file of the translation as an attachment to an email addressed to papyromancer@papyromancer.net. 
 
@@ -91,13 +92,7 @@ I've had to compile mplayer and mencoder for OS-X to be able to script subtitle 
 
 Using Mac Ports: 
 
-sudo port install freetype samba3 libtheora XviD faac libdv aalib libdts libcaca
-
-# sudo port install xorg-libs fontconfig freetype x264 samba3 libtheora XviD faac libdv aalib libdts libcaca 
-
-# sudo port install MPlayer 
-
-
-PKG_CONFIG_PATH=/opt/local/lib/pkgconfig/ PATH=$PATH:/opt/local/bin/ sudo ./configure --enable-encoder=x264 --enable-decoder=x264 
+# sudo port install fontconfig freetype x264 libtheora XviD faac libdv libdts 
+# sudo port install MPlayer +osd +fribidi +theora +xvid +x264 +faac +dv +dts 
 
 -- papyromancer@papyromancer.net
