@@ -1,4 +1,1 @@
-mencoder IACC-Promo.mp4 -sub IACC-Promo.EN.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 7 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac mp3lame -ovc x264 -x264encopts bitrate=8192 -o test.mp4
-
-# I wish this worked the above output files don't play in quicktime... but they work in flash ;)
-mencoder IACC-Promo.mp4 -sub IACC-Promo.EN.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 7 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac mp3lame -ovc x264 -x264encopts bitrate=8192 -of lavf -lavfdopts format=mp4 -o test.mp4
+mencoder IACC-Promo.mp4 -vf scale=720:352,harddup,ass -sub IACC-Promo.EN.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 7 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac lavc -ovc lavc -lavcopts aglobal=1:vglobal=1:vcodec=libx264:vbitrate=8196:autoaspect:acodec=libfaac:abitrate=96:coder=1 -o test.h264.mp4 -of lavf -lavfopts format=mp4
