@@ -8,7 +8,7 @@ http://videolan.org/
 
 Once you've cloned the repository you'll need to download the video file that goes along with these subtitles.  
 
-http://papyromancer.s3.amazonaws.com/IACC-Promo.m4v
+http://papyromancer.s3.amazonaws.com/IACC-Promo.mp4
 
 Just add it to the folder... but don't ever add it to the repository... it's too big for my free GitHub account.
 
