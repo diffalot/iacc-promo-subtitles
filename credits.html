@@ -1,0 +1,327 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"    
+ "http://www.w3.org/TR/html4/strict.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Internet Archive and Creative Commons Promo Credits</title>
+
+<style>
+
+	/* make elements a little more centered */
+	body {
+		font:13px/1.231 verdana,arial,helvetica,clean,sans-serif;
+		*font-size:small; /* for IE */
+		*font:x-small; /* for IE in quirks mode */
+		background:#111;
+		margin:0px;
+		padding:0px;
+	}
+
+
+	#content {
+		position:relative;
+		margin:0 auto;
+		width:740px;
+		min-height:540px;
+		padding:50px;
+		background:#000;
+		color:#777;
+	}
+	
+	a {
+		color:#ccc;
+		text-decoration:none;
+	}
+	
+	#title h1{
+		width:720px;
+		margin:0 auto;
+		position:absolute;
+		text-align:right;
+		font-size:40px;
+		font-weight:bold;
+				text-decoration:none;
+		top:50px;
+		z-index:0;
+		
+	}
+	#menu {
+		width:420px;
+		position:absolute;
+		top:5px;
+		
+	}
+	
+	#outside{
+		background:#000000;
+		}
+	#navigation-1 {
+		padding:0px 0;
+		margin:0px;
+		list-style:none;
+		width:100%;
+		height:21px;
+		font:normal 8pt verdana, arial, helvetica;
+	}
+	#navigation-1 li {
+		margin:0;
+		padding:0;
+		display:block;
+		float:left;
+		position:relative;
+		width:68px;
+	}
+	#navigation-1 li a:link, #navigation-1 li a:visited {
+		padding:4px 0;
+		display:block;
+		text-align:center;
+		text-decoration:none;
+		background:#000000;
+		color:#ffffff;
+		width:68px;
+		height:13px;
+	}
+	#navigation-1 li:hover a, #navigation-1 li a:hover, #navigation-1 li a:active {
+		padding:4px 0;
+		display:block;
+		text-align:center;
+		text-decoration:none;
+		background:#666666;
+		color:#ffffff;
+		width:68px;
+		height:13px;
+	}
+	#navigation-1 li ul.navigation-2 {
+		margin:0;
+		padding:0px 0px 0;
+		list-style:none;
+		display:none;
+		background:#ffffff;
+		width:68px;
+		position:absolute;
+		top:21px;
+		left:0px;
+	}
+	#navigation-1 li:hover ul.navigation-2 {
+		display:block;
+	}
+	#navigation-1 li ul.navigation-2 li {
+		width:68px;
+		clear:left;
+		width:68px;
+	}
+	#navigation-1 li ul.navigation-2 li a:link, #navigation-1 li ul.navigation-2 li a:visited {
+		clear:left;
+		background:#000000;
+		padding:4px 0;
+		width:68px;
+		position:relative;
+		z-index:2;
+	}
+	#navigation-1 li ul.navigation-2 li:hover a, #navigation-1 li ul.navigation-2 li a:active, #navigation-1 li ul.navigation-2 li a:hover {
+		clear:left;
+		background:#666666;
+		padding:4px 0;
+		width:68px;
+		position:relative;
+		z-index:2;
+	}
+	#navigation-1 li ul.navigation-2 li ul.navigation-3 {
+		display:none;
+		margin:0;
+		padding:0;
+		list-style:none;
+		position:absolute;
+		left:67px;
+		top:-2px;
+		padding:0px 0px 0 0px;
+		background:#ffffff;
+		z-index:1;
+	}
+	#navigation-1 li ul.navigation-2 li:hover ul.navigation-3 {
+		display:block;
+	}
+	#navigation-1 li ul.navigation-2 li ul.navigation-3 li a:link, #navigation-1 li ul.navigation-2 li ul.navigation-3 li a:visited {
+		background:#000000;
+	}
+	#navigation-1 li ul.navigation-2 li ul.navigation-3 li:hover a, #navigation-1 li ul.navigation-2 li ul.navigation-3 li a:hover, #navigation-1 li ul.navigation-2 li ul.navigation-3 li a:active {
+		background:#666666;
+	}
+	#navigation-1 li ul.navigation-2 li a span {
+		position:absolute;
+		top:0;
+		left:54px;
+		font-size:12pt;
+		color:#fe676f;
+	}
+	#navigation-1 li ul.navigation-2 li:hover a span, #navigation-1 li ul.navigation-2 li a:hover span {
+		position:absolute;
+		top:0;
+		left:56px;
+		font-size:12pt;
+		color:#ffffff;
+	}
+
+	
+	
+	
+	#pager {
+		width:700px;
+		margin:0 auto;
+		position:absolute;
+		top:80px;
+		text-align:right;
+		z-index:1000;
+		color:#777;
+	}
+
+
+	#post-front {
+		position:relative;
+		width:640px;
+		top:70px;
+		margin:0 auto;
+	}
+
+
+	#post {
+		position:relative;
+		top:70px;
+	}
+
+	#post td {
+		padding:30px;
+	}
+
+	}
+	#description {
+		font-size:20px;
+		width:700px;
+		height:200px;
+		overflow:auto;		
+		margin:0 auto;
+		position:absolute;
+		top:540px;
+		text-align:left;
+	}
+	
+	a.dsq-brlink {
+		position:absolute;
+		bottom:5px;
+		right:5px;
+	}
+	
+
+	/**
+	 * Nudge down to get to 13px equivalent for these form elements
+	 */ 
+	select,
+	input,
+	button,
+	textarea {
+		font:99% arial,helvetica,clean,sans-serif;
+	}
+
+	/**
+	 * To help tables remember to inherit
+	 */
+	table {
+		font-size:inherit;
+		font:100%;
+	}
+
+	/**
+	 * Bump up IE to get to 13px equivalent for these fixed-width elements
+	 */
+	pre,
+	code,
+	kbd,
+	samp,
+	tt {
+		font-family:monospace;
+		*font-size:108%;
+		line-height:100%;
+	}
+
+</style>
+
+
+</head>
+
+<body>
+
+<div id="content">
+	<div id="title">
+		<a href="http://papyromancer.net"><h1>papyromancy</h1></a>
+	</div>
+	
+
+			<div id="post-front">
+		
+		
+		<table>
+						
+		<tr><td>
+			<h1><a href="http://papyromancer.net/posts/7">Internet Archive and Creative Commons Promo</a></h1>
+		</td></tr>
+		
+		<tr><td>
+		
+		<div id="mediaplayer">
+	
+		</div>	
+		
+		</td><tr>
+			
+			
+			
+		<tr><td>
+		<p>This is a promotional video encouraging people to upload footage to <a href="http://archive.org">The Internet Archive</a> and use <a href="http://creativecommons.org">Creative Commons</a> licenses.</p> 
+
+
+<p>Here's where it gets a little weird. I'd like for subtitles to be made in every language that Creative Commons licenses are available.</p> 
+
+<p><a href="http://github.com/papyromancer/iacc-promo-subtitles/tree/master">Visit the GitHub repository</a> to help translate the subtitles into as many languages as possible.</p>
+
+<p>Special thanks to Jay and Ryanne of <a href="http://ryanishungry.com">Ryan is Hungry</a> and Rupert Howe of <a href="http://twittervlog.tv">Twittervlog.tv</a> for allowing me to license this derivative work which includes their non-commercially licensed videos simply under a Creative Commons Attribution license.</p>
+
+<p>I'd also like to thank <a href="http://lessig.org">Prof. Lessig</a> for building <a href="http://creativecommons.org">Creative Commons</a> and Brewster Kahle for building <a href="http://archive.org">The Internet Archive</a>.  
+
+Another shout out goes to <a href="http://apperceptions.org/">Markus Sandy</a> for getting me involved with this project.  And one more to Carl Malamud for the excellent work he did combining <a href="http://www.archive.org/details/igovernance_rawfootage_l2a">Lessig's presentation on "The Withering of the Net: How DC Pathologies are Undermining the Growth and Wealth of the Net."</a> with the video of the event.</p>
+
+<p>Thanks to <a href="http://craphound.com/">Cory Doctorow</a> for thinking up the Bitchun Society.</p>
+
+<p>And here are the links to all materials used in this video.
+<ul><li><a href="http://www.archive.org/details/ClaCinOnl_ThingsToCome">http://www.archive.org/details/ClaCinOnl_ThingsToCome</a></li>
+<li><a href="http://twittervlog.tv/2008/11/the-placenta-video-vlomo-day-3/">http://twittervlog.tv/2008/11/the-placenta-video-vlomo-day-3/</a></li>
+<li><a href="http://ryanishungry.com/2007/12/31/alemany-farm-san-francisco-urban-farming/">http://ryanishungry.com/2007/12/31/alemany-farm-san-francisco-urban-farming/</a></li>
+<li><a href="http://www.archive.org/details/igovernance_rawfootage_l2a">http://www.archive.org/details/igovernance_rawfootage_l2a</a></li>
+<li><a href="http://twittervlog.tv/2007/10/normal-service-will-resume-imminently/">http://twittervlog.tv/2007/10/normal-service-will-resume-imminently/</a></li></ul></p>
+
+		</td></tr>
+		
+		<tr><td>
+		
+		<div id="comment_link">
+		<p>
+			<a href="http://papyromancer.net/posts/7#disqus_thread">Disqus...</a><br />
+			<a href="http://papyromancer.net/posts/7">permalink</a>
+
+		</p>
+		
+			
+		</div>
+		
+		</td></tr>
+		
+		
+		</table>
+</div>
+
+<br clear="all" />
+
+</div>
+
+</body>
+</html>
