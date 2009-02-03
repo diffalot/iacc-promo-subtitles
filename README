@@ -92,7 +92,7 @@ I've had to compile mplayer and mencoder for OS-X to be able to script subtitle 
 
 Using Mac Ports: 
 
-# sudo port install fontconfig freetype x264 libtheora XviD faac libdv libdts 
-# sudo port install MPlayer +osd +fribidi +theora +xvid +x264 +faac +dv +dts 
+# sudo port install fontconfig freetype x264 faac
+# sudo port install MPlayer +osd +fribidi +theora +xvid +x264 +faac +dv +faad 
 
 -- papyromancer@papyromancer.net

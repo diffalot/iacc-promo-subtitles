@@ -123,15 +123,13 @@ for more information
 
 28
 00:01:39,088 --> 00:01:46,068
-Footage Provided By:<br><br>
-Rupert Howe
-http://twittervlog.tv<br><br>
-Ryan is Hungry
-http://ryanishungry.com/<br><br>
-Carl Malamud
-Center for American Progress and Lawrence Lessig<br><br>
-Things to Come<br>
-http://www.archive.org/
+Footage Provided By:<br>
+Rupert Howe --> http://twittervlog.tv<br>
+Ryan is Hungry --> http://ryanishungry.com/<br>
+Carl Malamud and Lawrence Lessig<br>
+Center for American Progress<br>
+Things to Come --> http://www.archive.org/<br>
+Dave Toole --> http://outhink.com/<br>
 
 29
 00:01:46,310 --> 00:01:48,211
