@@ -1,3 +1,10 @@
+---
+layout: post
+title: Creative Commons and Archive.org are Bitchun
+categories: [Creative Commons, Archive.org]
+---
+
+
 Let's translate these subs into as many languages as is possible.  Just copy the en.srt, translate, let me know you've done it, and I'll give you commit access to the repository.
 
 If you want to make changes to the English script, fork away ;)

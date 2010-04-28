@@ -1,0 +1,25 @@
+---
+layout: post
+title: Open Video is Bitchun
+category: [Art, Contest Entries]
+---
+
+<p>
+  <video width="600" height="360" controls>
+    <source src="http://papyromancer.s3.amazonaws.com/Open-Video-is-Bitchun.EN.ogv" type='video/ogg; codecs="theora, vorbis"'>
+  </video>
+</p>
+
+<p>If you came here from OVA, <a href="http://contest.openvideoalliance.org/video/17875/open-video-is-bitchun">Click Here</a> to go back.</p>
+
+<p>This is a remix of an Internet Archive and Creative Commons promotional video that may be found <a href="http://www.archive.org/details/InternetArchiveCreativeCommonsPromo">here</a>.</p>
+
+<p>This remix adds one Motion file and a Final Cut Project to the project folder.  Start out with the sparseimage from the IACC-Promo, add these two files, and you'll have a full copy of all raw materials should you wish to remix it yourself.  <a href="http://www.archive.org/details/OpenVideoIsBitchun">Here</a> is the archive.org page with this projects raw materials.</p>
+
+<p>Please let me know if you remix it, I'd love to see what you've done.</p>
+
+<p>Here's my four pass subtitle burn in mencoder command:</p>
+
+<pre>
+mencoder Open-Video-is-Bitchun-MP4.mov -noskip -vf harddup,scale=1280:720,ass -sub Open-Video-is-Bitchun.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 6 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac lavc -ovc lavc -lavcopts autoaspect:vglobal=1:aglobal=1:vcodec=libx264:vbitrate=3500:vpass=1:acodec=libfaac:abitrate=160:coder=1 -of lavf -lavfopts format=mp4 -o Open-Video-is-Bitchun.EN.mp4;cp x264_2pass.log divx2pass.log;mencoder Open-Video-is-Bitchun-MP4.mov -noskip -vf harddup,scale=1280:720,ass -sub Open-Video-is-Bitchun.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 6 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac lavc -ovc lavc -lavcopts autoaspect:vglobal=1:aglobal=1:vcodec=libx264:vbitrate=3500:vpass=3:acodec=libfaac:abitrate=160:coder=1 -of lavf -lavfopts format=mp4 -o Open-Video-is-Bitchun.EN.mp4;cp x264_2pass.log divx2pass.log;mencoder Open-Video-is-Bitchun-MP4.mov -noskip -vf harddup,scale=1280:720,ass -sub Open-Video-is-Bitchun.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 6 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac lavc -ovc lavc -lavcopts autoaspect:vglobal=1:aglobal=1:vcodec=libx264:vbitrate=3500:vpass=3:acodec=libfaac:abitrate=160:coder=1 -of lavf -lavfopts format=mp4 -o Open-Video-is-Bitchun.EN.mp4;cp x264_2pass.log divx2pass.log;mencoder Open-Video-is-Bitchun-MP4.mov -noskip -vf harddup,scale=1280:720,ass -sub Open-Video-is-Bitchun.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 6 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac lavc -ovc lavc -lavcopts autoaspect:vglobal=1:aglobal=1:vcodec=libx264:vbitrate=3500:vpass=3:acodec=libfaac:abitrate=160:coder=1 -of lavf -lavfopts format=mp4 -o Open-Video-is-Bitchun.EN.mp4;cp x264_2pass.log divx2pass.log;mencoder Open-Video-is-Bitchun-MP4.mov -noskip -vf harddup,scale=1280:720,ass -sub Open-Video-is-Bitchun.srt -ass -fontconfig -subfont 'Bitstream Vera Sans' -subfont-autoscale 1 -subfont-text-scale 6 -subfont-outline 3 -subfont-blur 3 -subpos 93 -subwidth 86 -spuaa 4 -oac lavc -ovc lavc -lavcopts autoaspect:vglobal=1:aglobal=1:vcodec=libx264:vbitrate=3500:vpass=3:acodec=libfaac:abitrate=160:coder=1 -of lavf -lavfopts format=mp4 -o Open-Video-is-Bitchun.EN.mp4;cp x264_2pass.log divx2pass.log;
+</pre>
